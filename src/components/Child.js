@@ -3,7 +3,7 @@ import React from "react";
 const Child =({cartItems, onRemove })=>{
     
     return (
-        <div>
+        <div className="child">
             <h2>Child Component</h2>
             <ul>
                 {cartItems && cartItems.map((item) => (
